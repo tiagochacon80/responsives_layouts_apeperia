@@ -11,10 +11,11 @@
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
         <link href="css/cabecalho.css" rel="stylesheet">
-        <link href="css/chamada.css" rel="stylesheet">        
+        <link href="css/chamada.css" rel="stylesheet">  
+        <link href="css/destaques.css" rel="stylesheet">      
     </head>
     <body>
-        <header class="cabecalho">
+        <header class="cabecalho container">
             <img src="img/logo-apeperia.svg" alt="Logo da Apeperia" class="cabecalho-logo">
             <nav class="cabecalho-navegacao">
                 <ul>
@@ -28,10 +29,26 @@
             </nav>
         </header>
         <main>
-            <section class="chamada">
+            <section class="chamada container">
                 <h1 class="chamada-titulo">Aplicativos Na Medida</h1>
                 <p class="chamada-texto">Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas e médias empresas.</p>
-                <a href="#" class="chamada-botao">Conheça os planos</a>
+                <a href="#" class="chamada-botao botao">Conheça os planos</a>
+            </section>
+            <section class="destaques container">
+                <h2 class="destaques-titulo">Destaques</h2>
+                <a href="#">
+                    <figure class="destaques-painel">
+                        <img src="img/comecando-criar-logotipo.png" alt="Painel do post sobre criação de logotipo" class="destaques-painel-imagem">
+                        <figcaption class="destaques-painel-texto">Conheça as primeiras etapas para a criação de um logotipo</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="destaques-painel">
+                        <img src="img/dicas-fotografia.png" alt="Painel do post sobre fotografia com celular" class="destaques-painel-imagem">
+                        <figcaption class="destaques-painel-texto">Veja dicas de como fotografar usando seu celular</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="destaques-botao botao">Receber destaques por email</a>
             </section>
         </main>
     </body>
