@@ -17,19 +17,17 @@
     position: absolute;
 }
 
-.cabecalho__logo {
+.cabecalho-logo {
     margin-bottom: 1rem;
 }
 
-.cabecalho__navegacao {
+.cabecalho-navegacao {
     text-align: center;
 }
 
-.cabecalho__link {
+.cabecalho-link {
     font-size: 1.1rem;
-
     display: inline-block;
-
     margin-right: .7rem;
     margin-bottom: 1.25rem;
     margin-left: .7rem;
