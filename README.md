@@ -1,2 +1,3 @@
-# projeto-apeperia
-Arquivos do projeto para a Apeperia
+# Landing page Apeperia
+
+Landing page of a mobile app company
